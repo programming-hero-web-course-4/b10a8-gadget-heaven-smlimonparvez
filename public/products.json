@@ -1,0 +1,491 @@
+[
+  {
+    "product_id": "L002",
+    "product_title": "MacBook Air",
+    "product_image": "https://example.com/macbookair.jpg",
+    "category": "Laptop",
+    "price": 1099,
+    "description": "Lightweight laptop with M1 chip for supercharged performance.",
+    "specification": [
+      "13.3-inch Retina display",
+      "Apple M1 chip",
+      "8GB RAM",
+      "256GB SSD",
+      "Backlit Keyboard",
+      "Wi-Fi 6"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "L003",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://example.com/hpspectrex360.jpg",
+    "category": "Laptop",
+    "price": 1199,
+    "description": "Convertible laptop with impressive design and performance.",
+    "specification": [
+      "13.3-inch FHD touchscreen",
+      "Intel Core i7 11th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "Backlit Keyboard",
+      "Wi-Fi 6"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "L004",
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "https://example.com/thinkpadx1carbon.jpg",
+    "category": "Laptop",
+    "price": 1299,
+    "description": "Business laptop with exceptional build quality and features.",
+    "specification": [
+      "14-inch FHD display",
+      "Intel Core i7 10th Gen",
+      "16GB RAM",
+      "1TB SSD",
+      "Backlit Keyboard",
+      "Wi-Fi 6"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "L005",
+    "product_title": "Microsoft Surface Laptop 4",
+    "product_image": "https://example.com/surfacelaptop4.jpg",
+    "category": "Laptop",
+    "price": 999,
+    "description": "Stylish laptop with great performance and touch display.",
+    "specification": [
+      "13.5-inch PixelSense touchscreen",
+      "Intel Core i5 11th Gen",
+      "8GB RAM",
+      "256GB SSD",
+      "Backlit Keyboard",
+      "Wi-Fi 6"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "L006",
+    "product_title": "Acer Swift 3",
+    "product_image": "https://example.com/acerswift3.jpg",
+    "category": "Laptop",
+    "price": 699,
+    "description": "Affordable laptop with solid performance and features.",
+    "specification": [
+      "14-inch FHD display",
+      "AMD Ryzen 7",
+      "8GB RAM",
+      "512GB SSD",
+      "Backlit Keyboard",
+      "Wi-Fi 6"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "L007",
+    "product_title": "Asus ZenBook 14",
+    "product_image": "https://example.com/asuszenbook14.jpg",
+    "category": "Laptop",
+    "price": 849,
+    "description": "Compact laptop with powerful performance and long battery life.",
+    "specification": [
+      "14-inch FHD display",
+      "Intel Core i7 11th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "Backlit Keyboard",
+      "Wi-Fi 6"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "L008",
+    "product_title": "Dell XPS 13",
+    "product_image": "https://example.com/dellxps13.jpg",
+    "category": "Laptop",
+    "price": 1199,
+    "description": "Premium laptop with stunning display and powerful performance.",
+    "specification": [
+      "13.4-inch 4K Ultra HD+ display",
+      "Intel Core i7 11th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "Backlit Keyboard",
+      "Wi-Fi 6"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "L009",
+    "product_title": "Razer Blade 15",
+    "product_image": "https://example.com/razerblade15.jpg",
+    "category": "Laptop",
+    "price": 1799,
+    "description": "Gaming laptop with high refresh rate display and powerful GPU.",
+    "specification": [
+      "15.6-inch FHD display",
+      "Intel Core i7 10th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "NVIDIA RTX 3070",
+      "RGB Keyboard"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "L010",
+    "product_title": "LG Gram 17",
+    "product_image": "https://example.com/lggram17.jpg",
+    "category": "Laptop",
+    "price": 1499,
+    "description": "Ultra-lightweight laptop with large display and long battery life.",
+    "specification": [
+      "17-inch WQXGA display",
+      "Intel Core i7 10th Gen",
+      "16GB RAM",
+      "1TB SSD",
+      "Backlit Keyboard",
+      "Wi-Fi 6"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+    {
+      "product_id": "M001",
+      "product_title": "MacBook Air M1",
+      "product_image": "https://example.com/macbookairm1.jpg",
+      "category": "MacBook",
+      "price": 999,
+      "description": "Lightweight laptop with M1 chip for supercharged performance.",
+      "specification": [
+        "13.3-inch Retina display",
+        "Apple M1 chip",
+        "8GB RAM",
+        "256GB SSD",
+        "Backlit Keyboard",
+        "Wi-Fi 6"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "M002",
+      "product_title": "MacBook Pro 13",
+      "product_image": "https://example.com/macbookpro13.jpg",
+      "category": "MacBook",
+      "price": 1299,
+      "description": "Professional laptop with powerful M1 chip and impressive features.",
+      "specification": [
+        "13.3-inch Retina display",
+        "Apple M1 chip",
+        "16GB RAM",
+        "512GB SSD",
+        "Backlit Keyboard",
+        "Wi-Fi 6"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "M003",
+      "product_title": "MacBook Air M2",
+      "product_image": "https://example.com/macbookairm2.jpg",
+      "category": "MacBook",
+      "price": 1199,
+      "description": "Ultra-thin laptop with the latest M2 chip for exceptional performance.",
+      "specification": [
+        "13.6-inch Liquid Retina display",
+        "Apple M2 chip",
+        "8GB RAM",
+        "512GB SSD",
+        "Backlit Keyboard",
+        "Wi-Fi 6"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "M004",
+      "product_title": "MacBook Pro 14",
+      "product_image": "https://example.com/macbookpro14.jpg",
+      "category": "MacBook",
+      "price": 1999,
+      "description": "High-end laptop with advanced M1 Pro chip and stunning display.",
+      "specification": [
+        "14.2-inch Liquid Retina XDR display",
+        "Apple M1 Pro chip",
+        "16GB RAM",
+        "1TB SSD",
+        "Backlit Keyboard",
+        "Wi-Fi 6"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "M005",
+      "product_title": "MacBook Pro 16",
+      "product_image": "https://example.com/macbookpro16.jpg",
+      "category": "MacBook",
+      "price": 2499,
+      "description": "Professional-grade laptop with M1 Max chip and expansive display.",
+      "specification": [
+        "16.2-inch Liquid Retina XDR display",
+        "Apple M1 Max chip",
+        "32GB RAM",
+        "1TB SSD",
+        "Backlit Keyboard",
+        "Wi-Fi 6"
+      ],
+      "availability": true,
+      "rating": 5.0
+    },
+    {
+      "product_id": "M006",
+      "product_title": "MacBook Pro 13",
+      "product_image": "https://example.com/macbookpro13m2.jpg",
+      "category": "MacBook",
+      "price": 1399,
+      "description": "Compact professional laptop with the latest M2 chip and top-notch performance.",
+      "specification": [
+        "13.3-inch Retina display",
+        "Apple M2 chip",
+        "8GB RAM",
+        "512GB SSD",
+        "Backlit Keyboard",
+        "Wi-Fi 6"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P001",
+      "product_title": "Apple iPhone 15 Pro Max",
+      "product_image": "https://example.com/iphone15promax.jpg",
+      "category": "Phones",
+      "price": 1299,
+      "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+      "specification": [
+        "6.7-inch Super Retina XDR display",
+        "A17 Bionic chip",
+        "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+        "LiDAR Scanner",
+        "Up to 2TB storage",
+        "5G ready"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P002",
+      "product_title": "Samsung Galaxy S23 Ultra",
+      "product_image": "https://example.com/galaxys23ultra.jpg",
+      "category": "Phones",
+      "price": 1199,
+      "description": "Premium flagship with revolutionary zoom and S Pen support.",
+      "specification": [
+        "6.8-inch AMOLED 2X display",
+        "Snapdragon 8 Gen 2",
+        "12GB RAM",
+        "512GB storage",
+        "200MP quad-camera setup",
+        "5G connectivity"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "P003",
+      "product_title": "Google Pixel 7 Pro",
+      "product_image": "https://example.com/pixel7pro.jpg",
+      "category": "Phones",
+      "price": 899,
+      "description": "The best of Google in a phone with outstanding AI-powered features.",
+      "specification": [
+        "6.7-inch LTPO AMOLED display",
+        "Google Tensor G2 chip",
+        "12GB RAM",
+        "256GB storage",
+        "50MP triple-camera system",
+        "Magic Eraser and AI photo features"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P004",
+      "product_title": "OnePlus 11 5G",
+      "product_image": "https://example.com/oneplus11.jpg",
+      "category": "Phones",
+      "price": 799,
+      "description": "Flagship killer with powerful specs and seamless performance.",
+      "specification": [
+        "6.7-inch QHD+ AMOLED display",
+        "Snapdragon 8 Gen 2",
+        "16GB RAM",
+        "256GB storage",
+        "50MP main camera with Hasselblad tuning",
+        "5000mAh battery with 100W fast charging"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "P005",
+      "product_title": "Xiaomi 13 Pro",
+      "product_image": "https://example.com/xiaomi13pro.jpg",
+      "category": "Phones",
+      "price": 999,
+      "description": "High-performance smartphone with Leica-powered cameras.",
+      "specification": [
+        "6.73-inch AMOLED display",
+        "Snapdragon 8 Gen 2",
+        "12GB RAM",
+        "512GB storage",
+        "50MP triple-camera system with Leica optics",
+        "120W HyperCharge support"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P006",
+      "product_title": "Sony Xperia 1 V",
+      "product_image": "https://example.com/xperia1v.jpg",
+      "category": "Phones",
+      "price": 1399,
+      "description": "Professional-grade phone for photography and multimedia.",
+      "specification": [
+        "6.5-inch 4K HDR OLED display",
+        "Snapdragon 8 Gen 2",
+        "12GB RAM",
+        "256GB storage",
+        "Triple-lens camera with real-time eye tracking",
+        "Cinematic Creator Pro mode"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "S001",
+      "product_title": "Apple Watch Series 9",
+      "product_image": "https://example.com/applewatchseries9.jpg",
+      "category": "Smartwatches",
+      "price": 399,
+      "description": "Advanced smartwatch with powerful features and seamless iPhone integration.",
+      "specification": [
+        "Always-On Retina display",
+        "S9 chip",
+        "Blood oxygen sensor",
+        "Sleep tracking",
+        "Water-resistant up to 50m",
+        "GPS and cellular options"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "S002",
+      "product_title": "Samsung Galaxy Watch 6",
+      "product_image": "https://example.com/galaxywatch6.jpg",
+      "category": "Smartwatches",
+      "price": 349,
+      "description": "Stylish smartwatch with advanced health-tracking features.",
+      "specification": [
+        "1.4-inch AMOLED display",
+        "Exynos W930 chip",
+        "Heart rate monitor",
+        "Blood pressure monitor",
+        "Sleep analysis",
+        "5ATM water resistance"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "S003",
+      "product_title": "Garmin Forerunner 965",
+      "product_image": "https://example.com/forerunner965.jpg",
+      "category": "Smartwatches",
+      "price": 599,
+      "description": "Premium smartwatch for athletes with advanced training tools.",
+      "specification": [
+        "1.4-inch AMOLED display",
+        "Built-in GPS",
+        "Heart rate and SpO2 monitor",
+        "VO2 max and training readiness insights",
+        "Up to 23 days of battery life in smartwatch mode",
+        "5ATM water resistance"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "S004",
+      "product_title": "Fitbit Versa 4",
+      "product_image": "https://example.com/fitbitversa4.jpg",
+      "category": "Smartwatches",
+      "price": 229,
+      "description": "Lightweight smartwatch for fitness and health tracking.",
+      "specification": [
+        "1.58-inch AMOLED display",
+        "Sleep and stress management tools",
+        "24/7 heart rate tracking",
+        "Built-in GPS",
+        "Up to 6 days of battery life",
+        "Water-resistant up to 50m"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "S005",
+      "product_title": "Amazfit GTR 4",
+      "product_image": "https://example.com/amazfitgtr4.jpg",
+      "category": "Smartwatches",
+      "price": 199,
+      "description": "Affordable smartwatch with premium design and features.",
+      "specification": [
+        "1.43-inch AMOLED display",
+        "Dual-band GPS positioning",
+        "150+ sports modes",
+        "Alexa built-in",
+        "Up to 14 days of battery life",
+        "5ATM water resistance"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": "S006",
+      "product_title": "Huawei Watch GT 4",
+      "product_image": "https://example.com/huaweiwatchgt4.jpg",
+      "category": "Smartwatches",
+      "price": 249,
+      "description": "Sleek smartwatch with advanced fitness and lifestyle features.",
+      "specification": [
+        "1.43-inch AMOLED display",
+        "TruSeen 5.0+ heart rate tracking",
+        "100+ workout modes",
+        "Bluetooth calling",
+        "Up to 2 weeks of battery life",
+        "Water-resistant up to 50m"
+      ],
+      "availability": true,
+      "rating": 4.6
+    }
+      
+]
+  
+
