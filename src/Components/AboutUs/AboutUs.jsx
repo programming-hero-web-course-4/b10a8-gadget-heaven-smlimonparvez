@@ -1,8 +1,10 @@
-const Statistics = () => {
+const path = () => {
   return (
     <div className="w-full bg-gradient-to-b from-transparent to-gray-100">
       <div className="bg-purple-500 flex flex-col justify-center items-center px-10 py-28 md:px-32 md:py-10  text-white space-y-7">
-        <h1 className="text-3xl md:text-5xl font-bold text-center">Statistics</h1>
+        <h1 className="text-3xl md:text-5xl font-bold text-center">
+          About Us
+        </h1>
         <p className="text-center ">
           Explore the latest gadgets that will take your experience to the next
           level. From smart devices to <br /> the coolest accessories, we have
@@ -13,4 +15,4 @@ const Statistics = () => {
   );
 };
 
-export default Statistics;
+export default path;
