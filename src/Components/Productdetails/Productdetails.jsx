@@ -2,6 +2,10 @@ import { useParams, useLoaderData } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
 
 const Productdetails = () => {
+
+  const ratingChanged = (newRating) => {
+    console.log(newRating);
+  };
   const { product_title } = useParams();
 
   const data = useLoaderData();
@@ -11,7 +15,6 @@ const Productdetails = () => {
   const {
     product_image,
     price,
-    category,
     description,
     specification,
     availability,
@@ -34,7 +37,7 @@ const Productdetails = () => {
         <div className="flex gap-8">
           <div className="w-4/10 flex items-center">
             <img
-              src="/src/assets/banner.jpg"
+              src={product_image}
               alt="Banner"
               className="w-full object-cover h-96 rounded-xl"
             />
@@ -75,10 +78,10 @@ const Productdetails = () => {
               </div>
             </div>
             <div className="flex items-center gap-1">
-              <button onClick={() => handleAddCart(product)} className="px-3 py-1 cursor-pointer font-semibold text-base text-white bg-purple-500 rounded-full">
+              <button className="px-3 py-1 cursor-pointer font-semibold text-base text-white bg-purple-500 rounded-full">
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
-              <button onClick={() => handleAddCart(product)} className="border border-gray-400 rounded-full p-1 cursor-pointer w-6 h-6 ml-2 flex items-center justify-center hover:bg-purple-500 hover:text-white duration-300 ease-in-out">
+              <button className="border border-gray-400 rounded-full p-1 cursor-pointer w-6 h-6 ml-2 flex items-center justify-center hover:bg-purple-500 hover:text-white duration-300 ease-in-out">
                 <i className="fa-regular fa-heart"></i>
               </button>
             </div>

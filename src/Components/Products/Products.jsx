@@ -25,7 +25,7 @@ const Products = () => {
   return (
     <div className="bg-gradient-to-b from-transparent to-gray-100">
       <Banner />
-      <div className="pb-14">
+      <div className="pb-14 w-5/6 mx-auto">
         <h2 className="text-center font-bold text-3xl">
           Explore Cutting-Edge Gadgets
         </h2>
@@ -66,13 +66,7 @@ const Products = () => {
                 Smart Watches
               </button>
             </Link>
-            <Link to="/products/Tablets">
-              <button
-                className={`${category === "tablets" ? "bg-purple-500 text-white" : ""} w-full px-5 py-2 bg-gray-100 rounded-full text-gray-500 hover:bg-purple-500 hover:text-white ease-in-out duration-300 font-semibold text-base`}
-              >
-                Tablets
-              </button>
-            </Link>
+          
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {filterProducts.map((product) => (

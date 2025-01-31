@@ -6,9 +6,9 @@ const Product = ({ product }) => {
   return (
     <div className="shadow-md rounded-lg p-3 bg-white space-y-2">
       <img
-        src="/src/assets/banner.jpg"
+        src={product_image}
         alt="Product"
-        className="w-full object-cover h-44 rounded-xl"
+        className="w-full object-cover h-32 rounded-xl"
       />
       <div>
         <h3 className="text-lg font-semibold">{product_title}</h3>
