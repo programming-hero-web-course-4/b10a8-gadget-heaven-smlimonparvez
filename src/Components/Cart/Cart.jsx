@@ -5,18 +5,28 @@ import { useNavigate } from "react-router-dom";
 const Cart = () => {
   const navigate = useNavigate();
   const [isModal, setIsModal] = useState(false);
-  const { cart, setCart, removeFromCart, price, sortByPrice } =
+  const [modalPrice, setModalPrice] = useState(0);
+  // Accessing context values
+  const { cart, setCart, removeFromCart, price, setPrice, sortByPrice } =
     useContext(cartWishContext);
 
   const handleModalOpen = () => {
+    if (cart.length === 0 || price === 0) {
+      return;
+    }
+    setModalPrice(price);
     setIsModal(true);
-    setCart('');
+    setCart("");
+    setPrice(0);
   };
 
   const handleModalClose = () => {
     setIsModal(false);
     navigate("/");
   };
+
+  // Auto-disable purchase button when cart is empty or price is 0
+  const isPurchaseDisabled = cart.length === 0 || price === 0;
 
   return (
     <div className="bg-gradient-to-b from-transparent to-gray-100 py-10">
@@ -36,7 +46,12 @@ const Cart = () => {
             </button>
             <button
               onClick={handleModalOpen}
-              className="btn bg-purple-400 rounded-full text-white text-base px-5 hover:bg-purple-500"
+              disabled={isPurchaseDisabled}
+              className={`btn rounded-full text-base px-5 ${
+                isPurchaseDisabled
+                  ? "bg-gray-400 cursor-not-allowed text-black"
+                  : "bg-purple-500 text-white hover:bg-purple-600"
+              }`}
             >
               Purchase
             </button>
@@ -82,7 +97,7 @@ const Cart = () => {
             <img src="/src/assets/Group.png" alt="" />
             <h3 className="font-bold text-lg mt-4">Payment Successfull!</h3>
             <p className="pt-4 text-gray-600">Thanks For Purchasing!</p>
-            <p className="text-gray-600">Total Price: ${price}</p>
+            <p className="text-gray-600">Total Price: ${modalPrice}</p>
             <button
               onClick={handleModalClose}
               className="mt-4 w-56 btn bg-gray-200 rounded-full"

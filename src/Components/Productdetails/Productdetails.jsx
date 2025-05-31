@@ -4,7 +4,7 @@ import { cartWishContext } from "../../Context/CartWishProvider";
 import { useContext } from "react";
 
 const Productdetails = () => {
-  const {addToCart, addToWishList, isDisabled} = useContext(cartWishContext); 
+  const {addToCart, addToWishList, isInWishlist} = useContext(cartWishContext); 
   const ratingChanged = (newRating) => {  
     console.log(newRating);
   };
@@ -84,7 +84,7 @@ const Productdetails = () => {
               <button onClick={() => addToCart(product)} className="px-3 py-1 cursor-pointer font-semibold text-base text-purple-500 border border-purple-500 hover:text-white hover:bg-purple-500 duration-300 ease-in-out rounded-full">
                 Add to Cart <i className="fa-solid fa-cart-shopping"></i>
               </button>
-              <button onClick={() => addToWishList(product)} disabled={isDisabled} className="border border-gray-400 rounded-full p-1 cursor-pointer w-6 h-6 ml-2 flex items-center justify-center hover:bg-purple-500 hover:text-white duration-300 ease-in-out">
+              <button onClick={() => addToWishList(product)} disabled={isInWishlist(product.product_id)} className="border border-gray-400 rounded-full p-1 cursor-pointer w-6 h-6 ml-2 flex items-center justify-center hover:bg-purple-500 hover:text-white duration-300 ease-in-out">
                 <i className="fa-regular fa-heart"></i>
               </button>
             </div>

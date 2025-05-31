@@ -8,7 +8,7 @@ const CartWishProvider = ({ children }) => {
   const [wishList, setWishList] = useState([]);
   const [price, setPrice] = useState(0);
   const [active, setActive] = useState(true);
-  const [isDisabled, setIsDisabled] = useState(false);
+  const [disabledWishlistItems, setDisabledWishlistItems] = useState([]);
 
   //toggle active
   const toggleActive = (component) => {
@@ -44,9 +44,13 @@ const CartWishProvider = ({ children }) => {
       return;
     } else {
       setWishList((prev) => [...prev, item]);
+      setDisabledWishlistItems((prev) => [...prev, item.product_id]);
       toast("Add To Wish List Successfull");
     }
-    setIsDisabled(true);
+  };
+
+  const isInWishlist = (productId) => {
+    return disabledWishlistItems.includes(productId);
   };
 
   //   remove from cart
@@ -67,12 +71,13 @@ const CartWishProvider = ({ children }) => {
       (wishItem) => wishItem.product_id !== id
     );
     setWishList(newWishList);
+    setDisabledWishlistItems((prev) => prev.filter(itemId => itemId !== id));
     toast("Remove From Wish List Successfull");
   };
 
   const sortByPrice = () => {
     // Sort in ascending order by price
-    const storedCart = [...cart].sort((a, b) => a.price - b.price);
+    const storedCart = [...cart].sort((a, b) => b.price - a.price);
     setCart(storedCart);
   };
 
@@ -86,10 +91,11 @@ const CartWishProvider = ({ children }) => {
     removeFromCart,
     removeFromWishList,
     price,
+    setPrice,
     toggleActive,
     active,
     sortByPrice,
-    isDisabled,
+    isInWishlist,
   };
   return (
     <cartWishContext.Provider value={cartWishInfo}>
