@@ -3,7 +3,7 @@
     "product_id": "L002",
     "product_title": "MacBook Air",
     "product_image": "https://i.postimg.cc/BbRW64Gt/apple-macbook-air-early-2024-apple-m3-chip-8gb-11711605957.webp",
-    "category": "laptops",
+    "category": "Laptops",
     "price": 1099,
     "description": "Lightweight laptop with M1 chip for supercharged performance.",
     "specification": [
@@ -20,8 +20,8 @@
   {
     "product_id": "L003",
     "product_title": "HP Spectre x360",
-    "product_image": "https://i.postimg.cc/WzdLTtCQ/hp-spector.jpg",
-    "category": "laptops",
+    "product_image": "https://i.postimg.cc/g0GY5pgD/hp-spect.png",
+    "category": "Laptops",
     "price": 1199,
     "description": "Convertible laptop with impressive design and performance.",
     "specification": [
@@ -39,7 +39,7 @@
     "product_id": "L004",
     "product_title": "Lenovo ThinkPad X1 Carbon",
     "product_image": "https://i.postimg.cc/v84ZQmrY/thinkpad-x1.jpg",
-    "category": "laptops",
+    "category": "Laptops",
     "price": 1299,
     "description": "Business laptop with exceptional build quality and features.",
     "specification": [
@@ -57,7 +57,7 @@
     "product_id": "L005",
     "product_title": "Microsoft Surface Laptop 4",
     "product_image": "https://i.postimg.cc/CK7W8jV3/microsoft-surface.jpg",
-    "category": "laptops",
+    "category": "Laptops",
     "price": 999,
     "description": "Stylish laptop with great performance and touch display.",
     "specification": [
@@ -75,7 +75,7 @@
     "product_id": "L006",
     "product_title": "Acer Swift 3",
     "product_image": "https://i.postimg.cc/R0TzTkwb/acer-swift.jpg",
-    "category": "laptops",
+    "category": "Laptops",
     "price": 699,
     "description": "Affordable laptop with solid performance and features.",
     "specification": [
@@ -93,7 +93,7 @@
     "product_id": "L007",
     "product_title": "Asus ZenBook 14",
     "product_image": "https://i.postimg.cc/qRMHD1LB/asus-zenbook.jpg",
-    "category": "laptops",
+    "category": "Laptops",
     "price": 849,
     "description": "Compact laptop with powerful performance and long battery life.",
     "specification": [
@@ -111,7 +111,7 @@
     "product_id": "L008",
     "product_title": "Dell XPS 13",
     "product_image": "https://i.postimg.cc/B6Y9r2YT/dell-xps.jpg",
-    "category": "laptops",
+    "category": "Laptops",
     "price": 1199,
     "description": "Premium laptop with stunning display and powerful performance.",
     "specification": [
@@ -129,7 +129,7 @@
     "product_id": "L009",
     "product_title": "Razer Blade 15",
     "product_image": "https://i.postimg.cc/0QHFWPjZ/razer-blade.jpg",
-    "category": "laptops",
+    "category": "Laptops",
     "price": 1799,
     "description": "Gaming laptop with high refresh rate display and powerful GPU.",
     "specification": [
@@ -146,8 +146,8 @@
   {
     "product_id": "L010",
     "product_title": "LG Gram 17",
-    "product_image": "https://i.postimg.cc/zXRZQbnh/lg-gram.jpg",
-    "category": "laptops",
+    "product_image": "https://i.postimg.cc/mDDTLwf1/lg-gram.jpg",
+    "category": "Laptops",
     "price": 1499,
     "description": "Ultra-lightweight laptop with large display and long battery life.",
     "specification": [
@@ -165,7 +165,7 @@
       "product_id": "M001",
       "product_title": "MacBook Air M1",
       "product_image": "https://i.postimg.cc/BbRW64Gt/apple-macbook-air-early-2024-apple-m3-chip-8gb-11711605957.webp",
-      "category": "macbooks",
+      "category": "MacBooks",
       "price": 999,
       "description": "Lightweight laptop with M1 chip for supercharged performance.",
       "specification": [
@@ -182,8 +182,8 @@
     {
       "product_id": "M002",
       "product_title": "MacBook Pro 13",
-      "product_image": "https://i.postimg.cc/pLfN2wcX/macbook-m4.jpg",
-      "category": "macbooks",
+      "product_image": "https://i.postimg.cc/DZMn8Xnj/macbook-16.webp",
+      "category": "MacBooks",
       "price": 1299,
       "description": "Professional laptop with powerful M1 chip and impressive features.",
       "specification": [
@@ -200,8 +200,8 @@
     {
       "product_id": "M003",
       "product_title": "MacBook Air M2",
-      "product_image": "https://i.postimg.cc/BbRW64Gt/apple-macbook-air-early-2024-apple-m3-chip-8gb-11711605957.webp",
-      "category": "macbooks",
+      "product_image": "https://i.postimg.cc/DZMn8Xnj/macbook-16.webp",
+      "category": "MacBooks",
       "price": 1199,
       "description": "Ultra-thin laptop with the latest M2 chip for exceptional performance.",
       "specification": [
@@ -218,8 +218,8 @@
     {
       "product_id": "M004",
       "product_title": "MacBook Pro 14",
-      "product_image": "https://i.postimg.cc/pLfN2wcX/macbook-m4.jpg",
-      "category": "macbooks",
+      "product_image": "https://i.postimg.cc/DZMn8Xnj/macbook-16.webp",
+      "category": "MacBooks",
       "price": 1999,
       "description": "High-end laptop with advanced M1 Pro chip and stunning display.",
       "specification": [
@@ -236,8 +236,8 @@
     {
       "product_id": "M005",
       "product_title": "MacBook Pro 16",
-      "product_image": "https://i.postimg.cc/pLfN2wcX/macbook-m4.jpg",
-      "category": "macbooks",
+      "product_image": "https://i.postimg.cc/DZMn8Xnj/macbook-16.webp",
+      "category": "MacBooks",
       "price": 2499,
       "description": "Professional-grade laptop with M1 Max chip and expansive display.",
       "specification": [
@@ -254,8 +254,8 @@
     {
       "product_id": "M006",
       "product_title": "MacBook Pro 13",
-      "product_image": "https://i.postimg.cc/pLfN2wcX/macbook-m4.jpg",
-      "category": "macbooks",
+      "product_image": "https://i.postimg.cc/DZMn8Xnj/macbook-16.webp",
+      "category": "MacBooks",
       "price": 1399,
       "description": "Compact professional laptop with the latest M2 chip and top-notch performance.",
       "specification": [
@@ -273,7 +273,7 @@
       "product_id": "P001",
       "product_title": "Apple iPhone 15 Pro Max",
       "product_image": "https://i.postimg.cc/gc7b4q6d/iphone.jpg",
-      "category": "phones",
+      "category": "Phones",
       "price": 1299,
       "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
       "specification": [
@@ -291,7 +291,7 @@
       "product_id": "P002",
       "product_title": "Samsung Galaxy S23 Ultra",
       "product_image": "https://i.postimg.cc/D09Dh6qX/samsung-galaxy-s23.jpg",
-      "category": "phones",
+      "category": "Phones",
       "price": 1199,
       "description": "Premium flagship with revolutionary zoom and S Pen support.",
       "specification": [
@@ -308,8 +308,8 @@
     {
       "product_id": "P003",
       "product_title": "Google Pixel 7 Pro",
-      "product_image": "https://i.postimg.cc/G2p6xHLH/pixel-7pro.jpg",
-      "category": "phones",
+      "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnvOHu4m9RXKd-MO1eZuG5c0nEkwMlzOn8oph9qpic67d8ibRMPAzYKkZOAw8Sk9raVuI&usqp=CAU",
+      "category": "Phones",
       "price": 899,
       "description": "The best of Google in a phone with outstanding AI-powered features.",
       "specification": [
@@ -326,8 +326,8 @@
     {
       "product_id": "P004",
       "product_title": "OnePlus 11 5G",
-      "product_image": "https://i.postimg.cc/yNsMWL2h/one-plus.jpg",
-      "category": "phones",
+      "product_image": "https://i.postimg.cc/YS8pBPVw/one-plus-11.png",
+      "category": "Phones",
       "price": 799,
       "description": "Flagship killer with powerful specs and seamless performance.",
       "specification": [
@@ -345,7 +345,7 @@
       "product_id": "P005",
       "product_title": "Xiaomi 13 Pro",
       "product_image": "https://i.postimg.cc/GhY3ySg6/xiaomi-13pro.jpg",
-      "category": "phones",
+      "category": "Phones",
       "price": 999,
       "description": "High-performance smartphone with Leica-powered cameras.",
       "specification": [
@@ -363,7 +363,7 @@
       "product_id": "P006",
       "product_title": "Sony Xperia 1 V",
       "product_image": "https://i.postimg.cc/NGZfLwD1/sony-xperia.jpg",
-      "category": "phones",
+      "category": "Phones",
       "price": 1399,
       "description": "Professional-grade phone for photography and multimedia.",
       "specification": [
@@ -381,7 +381,7 @@
       "product_id": "S001",
       "product_title": "Apple Watch Series 9",
       "product_image": "https://i.postimg.cc/1zSQwmVq/apple-watch.jpg",
-      "category": "smartwatches",
+      "category": "Smartwatches",
       "price": 399,
       "description": "Advanced smartwatch with powerful features and seamless iPhone integration.",
       "specification": [
@@ -399,7 +399,7 @@
       "product_id": "S002",
       "product_title": "Samsung Galaxy Watch 6",
       "product_image": "https://i.postimg.cc/tJZf8wVb/samsung-galaxy-watch.jpg",
-      "category": "smartwatches",
+      "category": "Smartwatches",
       "price": 349,
       "description": "Stylish smartwatch with advanced health-tracking features.",
       "specification": [
@@ -417,7 +417,7 @@
       "product_id": "S003",
       "product_title": "Garmin Forerunner 965",
       "product_image": "https://i.postimg.cc/6pnK82qK/amazfit.jpg",
-      "category": "smartwatches",
+      "category": "Smartwatches",
       "price": 599,
       "description": "Premium smartwatch for athletes with advanced training tools.",
       "specification": [
@@ -435,7 +435,7 @@
       "product_id": "S004",
       "product_title": "Fitbit Versa 4",
       "product_image": "https://i.postimg.cc/6pnK82qK/amazfit.jpg",
-      "category": "smartwatches",
+      "category": "Smartwatches",
       "price": 229,
       "description": "Lightweight smartwatch for fitness and health tracking.",
       "specification": [
@@ -453,7 +453,7 @@
       "product_id": "S005",
       "product_title": "Amazfit GTR 4",
       "product_image": "https://i.postimg.cc/6pnK82qK/amazfit.jpg",
-      "category": "smartwatches",
+      "category": "Smartwatches",
       "price": 199,
       "description": "Affordable smartwatch with premium design and features.",
       "specification": [
@@ -471,7 +471,7 @@
       "product_id": "S006",
       "product_title": "Huawei Watch GT 4",
       "product_image": "https://i.postimg.cc/g2FFbzDT/huawei-watch.jpg",
-      "category": "smartwatches",
+      "category": "Smartwatches",
       "price": 249,
       "description": "Sleek smartwatch with advanced fitness and lifestyle features.",
       "specification": [

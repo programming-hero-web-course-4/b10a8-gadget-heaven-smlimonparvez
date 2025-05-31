@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 const Product = ({ product }) => {
   const { product_title, product_image, price, category } = product;
   return (
-    <div className="shadow-md rounded-lg p-3 bg-white space-y-2">
+    <div className="shadow-md rounded-lg p-5 bg-white space-y-2 flex flex-col justify-between">
       <img
         src={product_image}
         alt="Product"
-        className="w-full object-cover h-32 rounded-xl"
+        className="w-full bg-center rounded-xl"
       />
       <div>
         <h3 className="text-lg font-semibold">{product_title}</h3>
